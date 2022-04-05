@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>F1 ROAD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="imagenes/public1.png">
+</head>
+<script src="https://kit.fontawesome.com/765f4d2795.js" crossorigin="anonymous"></script>
+
+<body>
+
+
+<div class="navbar">
+ <ul>
+  <li class="home"><a href="index.html" >Home <i class="fa-solid fa-house"></i><link rel="icon" href="imagenes/house-solid.svg"></a></li>
+  <li><a href="garaje.html">Garaje</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Categorías  <i class="fa-solid fa-angle-down"></i><link rel="icon" href="imagenes/angle-down-solid.svg"></a>
+    <div class="dropdown-content">
+      <a href="rallys.html">Rally</a>
+    </div>
+  </li>
+  <li><a href="form_page.html">Ingresar <i class="fa-solid fa-circle-user"></i><link rel="icon" href="imagenes/circle-user-solid.svg"></a></li>}
+  <li><a href="uso_css.html">Uso de CSS <i class="fa-brands fa-css3"></i><link rel="icon" href="imagenes/css3-brands.svg"></a></li>
+
+</ul>
+
+</div>
+
+  </div>
+  <div class="main">
+    <div class="flex_container_form")>
+      <br>
+      <h2 class="Titulo_form">Registrate</h2>      
+      <form class="form_registro">
+      
+        <label for="nombre">Nombre</label>
+        <input class="input_name" type="text" placeholder="Escribe tu nombre" required>
+      
+        <label for="apellidos">Apellido</label>
+        <input class="input_name" type="text" placeholder="Escribe tu primer apellido" required>
+
+        <label for="n1">Edad</label>
+         <input type="number" min="12" max="120" step="1" id="n1" name="age"
+               pattern="\d+">
+
+        <label for="telefono">Telefono (numeros del 0-9)</label>
+        <input type="tel" min=10 max=10 pattern="[0-9]{10}" placeholder="Ingresa tu numero telefonico" required>
+        
+        <label for="email" >Email</label>
+        <input type="email" placeholder="Escribe tu Email" required />
+      
+        <label for="asunto">Contraseña</label>
+        <input placeholder="Escribe tu Contraseña" type="password" minlength=8>
+      
+        <label for="mensaje">Confirmar contraseña</label>
+        <input type ="password" placeholder="Confirma tu Contraseña" required>
+        <fieldset id="legend">
+          <legend >¿Tienes licencia de conducir?<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></legend>
+  
+          <input type="radio" required name="driver" id="r1" value="yes"><label for="r1">Sí</label>
+          <input type="radio" required name="driver" id="r2" value="no"><label for="r2">No</label>
+        </fieldset>
+
+        <div class="div_form1">
+          <input type="submit" value="Enviar datos"/>
+        </div>
+      </form>
+
+
+    </div>
+   
+  </div>
+</div>
+
+<div class="footer">
+
+  <div class="autores">
+    <p>Página web hecha por:  <br><br>
+      - Jesús Abraham Canul Couoh <i class="fa-solid fa-dragon"></i><link rel="icon" href="imagenes/dragon-solid.svg"></i><br><br>
+      - Fernando Javier Noh Requena <i class="fa-solid fa-bicycle"></i><link rel="icon" href="imagenes/bicycle-solid.svg"> <br><br>
+      - Evan Jazheel Ku Canche <i class="fa-brands fa-angellist"></i><link rel="icon" href="imagenes/angellist-brands.svg"><br><br>
+      - Geovanny Francisco Baas Chalé <i class="fa-brands fa-android"></i><link rel="icon" href="imagenes/android-brands.svg"><br>
+      
+    </p>
+    <br>
+  </div>
+
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
